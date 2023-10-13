@@ -14,16 +14,24 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    background-color: #FFFFFF;
+    color: #434455;
 }
 .logotype {
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #2E2F42;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-span {
+    color: #2e2f42;
+}
+.logo-span-basement {
+    color: #f4f4fd;
 }
 .menu-link {
     font-family: 'Roboto',sans-serif;
@@ -36,13 +44,20 @@ body {
 }  
 .menu-link:hover,
 .menu-link:focus,
-.address-link:hover,
-.address-link:focus,
+.contact-link:hover,
+.contact-link:focus,
 .hero-button:hover,
 .hero-button:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
-.address-link {
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+.contact {
+    font-style: normal;
+}
+.contact-link {
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -58,6 +73,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #ffffff;
 }
 .title {
         font-family: Roboto;
@@ -66,8 +82,10 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
 }
 .title-portfolio,
+.advantages-title,
 .title-list {
     font-family: Roboto;
     font-size: 20px;
@@ -80,8 +98,31 @@ body {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.hero-button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.list-team-item {
+    background-color: #FFFFFF;
+}
+/* === FOOTER=== */
+.basement {
+    background-color: #2e2f42;
+}
+.basement-text {
+    color: #F4F4FD;
 }
